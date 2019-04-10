@@ -13,9 +13,9 @@ with open('HISTORY.rst') as history_file:
 
 requirements = ['Click>=6.0', 'us>=1.0', 'tqdm>=4.31', 'requests>=2.21']
 
-setup_requirements = [ ]
+setup_requirements = ['Click>=6.0', 'us>=1.0', 'tqdm>=4.31', 'requests>=2.21']
 
-test_requirements = [ ]
+test_requirements = ['Click>=6.0', 'us>=1.0', 'tqdm>=4.31', 'requests>=2.21']
 
 setup(
     author="Sergio Sánchez Zavala",
