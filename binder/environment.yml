@@ -1,0 +1,8 @@
+name: acs_download
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - osmnx
+  - pip:
+    - acs_download
