@@ -4,6 +4,24 @@ from zipfile import ZipFile
 import requests
 import time
 
+def _check_data_folder(
+    path: str = "../data/raw/", 
+    extract: bool = True,
+    ):
+    path = Path(path)
+
+    if path.exists():
+        pass
+    else:
+        Path("../data/").mkdir()
+        Path("../data/raw/").mkdir()
+        if extract:
+            Path("../data/interim/").mkdir()
+
+
+    return None
+
+
 def download_acs_data(url: str, 
                       download_path: str = "../data/raw/",
                       extract: bool = True,
@@ -13,6 +31,9 @@ def download_acs_data(url: str,
     Downloads ACS 1-, 3-, or 5- estimates from a US Census Bureau's FTP-server URL.
     """
     
+    # Checks download_path and extract_path exists
+    _check_data_folder(path = download_path, extract = extract)
+
     # Downloads Data
     BASE_URL = "https://www2.census.gov/programs-surveys/acs/data/pums/"
     if not url[:55] == BASE_URL:
@@ -92,4 +113,4 @@ def download_acs_data(url: str,
             time.sleep(.5)
             break
         
-        print("Files extracted successfully")
+        print(f"Files extracted successfully at {final_extraction_folder}")
