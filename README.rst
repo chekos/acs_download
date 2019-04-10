@@ -43,7 +43,7 @@ This will download ACS PUMS data file of California to your
 ``acs_download`` uses pypi package ``us``, which uses ``jellyfish``, to
 handle ``state`` input so you can use variations
 
-.. image:: static/acs_download_example1.gif
+.. image:: https://raw.githubusercontent.com/chekos/acs_download/master/static/acs_download_example1.gif
 
 
 Features
