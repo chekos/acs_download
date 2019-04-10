@@ -27,9 +27,9 @@ Usage
 
 .. code:: python
 
-   import acs_download
+   import acs_download as acs
 
-   acs_download(
+   acs.get_data(
        year = 2017,
        state = 'California',
        download_path = '../data/raw/',
