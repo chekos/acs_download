@@ -4,7 +4,7 @@
 
 __author__ = """Sergio Sánchez Zavala"""
 __email__ = 'sergio@cimarron.io'
-__version__ = '0.1.3'
+__version__ = '0.1.4'
 
 # -*- coding: utf-8 -*-
 
