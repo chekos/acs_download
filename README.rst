@@ -47,6 +47,7 @@ handle ``state`` input so you can use variations
 
 .. image:: https://raw.githubusercontent.com/chekos/acs_download/master/static/acs_download_example1.gif
 
+.. image:: https://raw.githubusercontent.com/chekos/acs_download/master/static/acs_download_example_cli_2.gif
 
 Features
 --------
