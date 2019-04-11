@@ -20,5 +20,5 @@ def main(year, state, survey, person_or_household, download_path, extract, extra
 
     return print("done!")
 
-# if __name__ == "__main__":
-#     main() # pragma: no cover
+if __name__ == "__main__":
+    sys.exit(main()) # pragma: no cover
