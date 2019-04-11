@@ -7,8 +7,8 @@ import click
 import acs_download as acs
 
 @click.command()
-@click.argument("--year", default = 2017, show_default=True, type=click.IntRange(min=2000, max=2017, clamp=True))
-@click.argument("--state", default = "Alaska", show_default=True, type=click.STRING)
+@click.option("--year", default = 2017, show_default=True, type=click.IntRange(min=2000, max=2017, clamp=True))
+@click.option("--state", default = "Alaska", show_default=True, type=click.STRING)
 @click.option("--survey", default = "1-year", type=click.Choice(choices=("1-year", "5-year"), case_sensitive=False))
 @click.option("--person-or-household", default="person", type=click.Choice(choices=("person", "household")), show_default=True)
 @click.option("--download-path", default="../data/raw/", type=click.Path(exists=True, file_okay=False, writable=True))
