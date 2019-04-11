@@ -16,7 +16,7 @@ import acs_download as acs
 @click.option("--extract-path", default="../data/interim/", show_default=True, type=click.Path(exists=True, file_okay=False, writable=True))
 def main(year, state, survey, person_or_household, download_path, extract, extract_path):
     """Console script for acs_download."""
-    acs.get_data(year=year, state=state, survey=survey, person_or_household=poh, download_path=download_path, extract=extract, extract_path=extract_path)
+    acs.get_data(year=year, state=state, survey=survey, person_or_household=person_or_household, download_path=download_path, extract=extract, extract_path=extract_path)
 
     return 0
 
