@@ -24,7 +24,7 @@ class TestAcs_download(unittest.TestCase):
         """Test something."""
 
     def test_command_line_interface(self):
-        # """Test the CLI."""
+        """Test the CLI."""
         # runner = CliRunner()
         # result = runner.invoke(cli.main)
         # assert result.exit_code == 0
