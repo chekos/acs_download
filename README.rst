@@ -46,9 +46,11 @@ This will download ACS PUMS data file of California to your
 handle ``state`` input so you can use variations
 
 example of usage on Jupyter Lab
+
 .. image:: https://raw.githubusercontent.com/chekos/acs_download/master/static/acs_download_example1.gif
 
 example of usage on command line
+
 .. image:: https://raw.githubusercontent.com/chekos/acs_download/master/static/acs_download_example_cli_2.gif
 
 Features
