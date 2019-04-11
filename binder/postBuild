@@ -5,4 +5,4 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 rm -rf ./binder/
 
 # install tree
-sudo apt-get install tree
+apt-get install tree
