@@ -5,4 +5,4 @@ dependencies:
   - python=3.6
   - osmnx
   - pip:
-    - acs_download
+    - acs_download>=0.1.5
