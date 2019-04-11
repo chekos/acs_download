@@ -18,7 +18,7 @@ def main(year, state, survey, person_or_household, download_path, extract, extra
     """Console script for acs_download."""
     acs.get_data(year=year, state=state, survey=survey, person_or_household=person_or_household, download_path=download_path, extract=extract, extract_path=extract_path)
 
-    return 0
+    return None
 
 if __name__ == "__main__":
     sys.exit(main())  # pragma: no cover
