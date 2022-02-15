@@ -1,3 +1,5 @@
+# THIS IS NO LONGER MAINTAINED. CHECK OUT `PYPUMS` INSTEAD: https://github.com/chekos/pypums
+
 ============
 ``ACS`` Download
 ============
